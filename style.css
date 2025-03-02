@@ -1,0 +1,97 @@
+/* Option 2: Import via CSS */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333333;
+    font-family: "Poppins", sans-serif;
+}
+
+.main-con{
+
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.button-con{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(249, 123, 101);
+    border-radius: 999px;
+    left: -110px;
+    top: -110px;
+    transform: rotate(40deg);
+    /* transform-origin: top left; */
+}
+
+.button-sec {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border: 999px;
+    
+}
+
+.btn {
+    font-size: 30px; 
+    font-weight: bold;
+    color: aliceblue;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    position: absolute;
+}
+
+.cancel {
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    transform: rotate(40deg);
+}
+
+.menu {
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transform: rotate(-40deg);
+}
+
+.home-page {
+    width: 70%;
+    padding: 5% 0px;
+}
+
+.title-prg {
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.name {
+    font-size: 16px;
+    color: rgb(205, 125, 125);
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.img-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 32px;
+    margin-bottom: 12px;
+}
+
+.img {
+    height: 550px;
+    width: 100%;
+    margin-bottom: 12px;
+}
